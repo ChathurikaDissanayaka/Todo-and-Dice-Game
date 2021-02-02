@@ -1,0 +1,112 @@
+body, button{
+	background-image: url(../img/c.jpeg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	font-family: Papyrus,Courier New, Lucida Console, Monaco, 
+	"Times New Roman", Times, serif;
+	margin: 0px;
+}
+
+#header{
+	font-weight: bold;
+	text-align: center;
+	text-transform: uppercase;
+	text-shadow: 2px 2px 5px #6699ff;
+}
+
+nav ul{
+	padding: 0px;
+  margin: 0px;
+	vertical-align:top;
+	list-style: none;
+}
+
+nav li{
+	display: inline-block;
+	text-transform: uppercase;
+	color: white;
+}
+
+
+nav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+nav{
+	background-color: black;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+#content, #results{
+  text-align: center;
+  text-shadow: 4px 4px 8px white;
+}
+
+#results{
+	font-size: 12px;
+	text-shadow: 4px 4px 8px #ff8080;
+}
+
+.d1{
+	background-color: #ffbf00;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 30px;
+	width: 150px;
+	border: 5px white;
+	border-style: ridge;
+}
+
+.d2{
+	background-color: #bfff00;
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 30px;
+	width: 150px;
+	border: 5px white;
+	border-style: ridge;
+}
+
+#btn{
+	text-align: center;
+}
+
+button{
+	background-image: none;
+	background-color: red;
+	border: 2px solid red;
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+	color: white;
+	padding: 10px 10px;
+	margin: 4px 2px;
+	cursor: pointer;
+	font-weight: bold;
+	width: 10%;
+}
+
+.cls1{
+	background-color: #bf00ff;
+}
+
+.cls2{
+	background-color: #ff00ff;
+}
+
+#footer2{
+	 position: fixed;
+	 left: 0;
+	 bottom: 0;
+     width: 100%;
+	 background-color: black;
+	 color: white;
+	 text-align: center;
+}

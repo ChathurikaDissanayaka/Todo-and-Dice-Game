@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TODO App</title>
+    <link rel="stylesheet" type="text/css" href="./css/todo.css">
+</head>
+<body>
+     <nav id="nav">
+        <ul>
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./todo.html" style="background-color: red">todo</a></li>
+            <li><a href="./dice.html">dice</a></li>
+        </ul>
+    </nav>
+
+    <div id="header">
+        <h1>My TODO List</h1>
+    </div>
+
+	<div id="content">
+	    <h2>To add a task type the task name and click on the Add Item button</h2>
+        <h2>To remove a task type the task name and click on the Remove Item button</h2>
+
+	    <input type="text" id="candidate" placeholder="Enter a task...">
+	    <br>
+	    <button onclick="addItem()">Add Item</button>
+	    
+        <button onclick="removeItem()">Remove Item</button>
+	</div>
+
+    <ul id="dynamic-list"></ul>
+
+    <div id="footer2">
+        <p>Author: Sachini Dissanayaka</p>
+        <p>Email: sachichathudissanayaka@gmail.com</p>
+    </div>
+
+    <script src="./js/todo.js"></script>
+</body>
+</html>

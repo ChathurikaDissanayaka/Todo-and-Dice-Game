@@ -1,0 +1,60 @@
+body{
+	background-image: url(../img/c.jpeg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	font-family: Papyrus,Courier New, Lucida Console, Monaco, 
+	"Times New Roman", Times, serif;
+	margin: 0px;
+}
+
+#header{
+	font-weight: bold;
+	text-align: center;
+	text-transform: uppercase;
+	text-shadow: 2px 2px 5px #6699ff;
+}
+
+ul{
+	padding: 0px;
+  	margin: 0px;
+	vertical-align:top;
+	list-style: none;
+}
+
+li{
+	display: inline-block;
+	text-transform: uppercase;
+	color: white;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+nav{
+	background-color: black;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+#content{
+	text-align: center;
+	text-shadow: 4px 4px 8px white;
+}
+
+#footer2{
+	 position: fixed;
+	 left: 0;
+	 bottom: 0;
+     width: 100%;
+	 background-color: black;
+	 color: white;
+	 text-align: center;
+}

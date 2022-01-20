@@ -1,6 +1,6 @@
 # Todo app and dice game 
 
-Final Assignment of CSUP Web Development Bootcamp
+Final Assignment of CSUP Web Development Bootcamp<br>
 
 ## Technologies Used - HTML, CSS and JavaScript
 

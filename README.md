@@ -1,8 +1,7 @@
 # Todo app and dice game 
 
-I created this project as the final Assignment of CSUP Web Development Bootcamp.<br><br>
-
-## Technologies Used - HTML, CSS and JavaScript
+I created this project as the final Assignment of CSUP Web Development Bootcamp.
+Technologies Used - HTML, CSS and JavaScript
 
 ### Home Page
 <img src="/ScreenShots/Screenshot 1.png" width=500px height=240px>
